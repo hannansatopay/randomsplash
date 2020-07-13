@@ -1,0 +1,14 @@
+permissions:
+  scopes: []
+modules:
+  macro:
+    - key: randomsplash
+      function: main
+      title: Random Splash
+      description: Add random images to your Confluence document - powered by Unsplash! 
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/2cf9a5bd-d084-43a9-b498-06aa02c0da93'
+  name: randomsplash
